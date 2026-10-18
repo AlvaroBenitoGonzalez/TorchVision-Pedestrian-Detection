@@ -64,6 +64,10 @@ This loads `model.pth`, runs the model on `data/PennFudanPed/PNGImages/FudanPed0
 
 Masks are binarized with a threshold of `0.7`. Since all predictions are drawn regardless of score, you may want to filter low-confidence detections (for example `pred["scores"] > 0.5`) for a cleaner output.
 
+## Example Result
+ 
+![Pedestrian detection and segmentation result](https://github.com/user-attachments/assets/3f11af38-3987-4c0d-8607-3c206444db95)
+
 ## How It Works
 
 1. **Dataset** (`dataset.py`): each mask image encodes every pedestrian with a different pixel value. These are split into one binary mask per person, and bounding boxes are derived from the masks.
