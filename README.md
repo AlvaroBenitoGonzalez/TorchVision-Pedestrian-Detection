@@ -81,5 +81,5 @@ See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
-- [PyTorch / TorchVision](https://pytorch.org/vision/stable/index.html) and the official detection finetuning tutorial
+- [PyTorch / TorchVision](https://pytorch.org/vision/stable/index.html) and the [official detection finetuning tutorial](https://docs.pytorch.org/tutorials/intermediate/torchvision_tutorial.html?utm_source=chatgpt.com#putting-everything-together)
 - Penn-Fudan Database authors
